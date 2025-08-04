@@ -1,19 +1,9 @@
 USER_OPT="--enable-gpl \
+--pkg-config=pkg-config \
+--pkg-config-flags=--static \
 --enable-libx265 \
 --enable-libx264 \
 --enable-libfreetype \
---enable-libfdk-aac \
---enable-libmp3lame \
---enable-libopus \
---enable-libvorbis \
---enable-libvpx \
---enable-libwebp \
---enable-libass \
---enable-libfribidi \
---enable-fontconfig \
---enable-nonfree \
---pkg-config=pkg-config \
---pkg-config-flags=--static \
 $USER_OPT
 "
 # Full version - enable all features by default
